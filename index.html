@@ -10,41 +10,105 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <header class="header">
+    <header class="header tipography">
       <ul class="header__menu">
         <li class="first-item">
-          <a href="#" class="general-link">главная</a>
+          <a href="#" class="header__links-list-item_no-bullet">главная</a>
         </li>
         <li>
-          <a href="#" class="link">посмотреть лоты</a>
+          <a href="#" class="header__links-list-item">посмотреть лоты</a>
         </li>
         <li>
-          <a href="#" class="link">об аукционе</a>
-          
+          <a href="#" class="header__links-list-item">об аукционе</a>
         </li>
       </ul>
-      <a class="logo-black" url="./images/logo-black.svg">  
+      <a class="header__logo" url="./images/logo-black.svg">  
         <img  src="./images/logo-black.svg" alt="White website logo">
       </a>
-      <address>
-        <a href="tel:+9 999 555 5555" class="link">+9 999 555 5555</a>
+      <address class="header__address">
+        <a href="tel:+9 999 555 5555" class="header__links-list-item">+9 999 555 5555</a>
         <br>
-        <a href="info@sobaka.ge" class="link">info@sobaka.ge</a>
+        <a href="info@sobaka.ge" class="header__links-list-item">info@sobaka.ge</a>
         <p class="letter-spacing">
           наб. Принсенграхт 263- <br>265, Амстердам
         </p>
       </address>
-
-
-
     </header>
+    <!-- секция с картинокой и надписью оно тебе надо -->
     <section class="cover">
-      <!-- секция с картинокой и надписью оно тебе надо -->
-
+      <div class="overlay">
+        <h1 class="tipography">
+          <span class="aligned-text">
+            он<span class="letter-spacing-extended">о</span>
+          </span>
+          <span class="aligned-text_center">
+            теб<span class="letter-spacing-extended">е</span>
+          </span>
+          <span class="aligned-text_right">
+            <span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span>
+          </span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text tipography">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button tipography">
+            Сделать ставку
+          </button>
+        </div>
+      </div>
     </section>
+    <!-- секция с карточками -->
     <section class="lots">
-
+      <h2 class="lots__heading">
+        Лоты
+      </h2>
+      <ul class="lots__card-list card_type_film">
+        <li class="lots__card-list-item">
+          <article class="card">
+            <h3 class="card__title">
+              Фильм режиссёра, который бросил киношколу
+            </h3>
+            <p class="card__text">
+              Не просто бросил, а ушёл с первой лекции.
+              Какой была бы ваша ставка, если бы вы не знали, 
+              что режиссёр — Пол Томас Андерсон?
+            </p>
+          </article>
+        </li>
+        <li class="lots__card-list-item card_type_book">
+          <article class="card">
+            <h3 class="card__title">
+              Книга, где описан один скучный день из жизни рекламного агента
+            </h3>
+            <p class="card__text">
+              Объёмом почти в тысячу страниц. 
+              Иногда без знаков препинания и с переходами на древнеанглийский. 
+              В ней одновременно рассказывается о 16 июня 1904 года и 
+              об истории литературы, начиная с античных времён. 
+              И это всё накладывается на эпическую поэму Гомера.
+               Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+            </p>
+          </article>
+        </li>
+        <li class="lots__card-list-item card_type_picture">
+          <article class="card">
+            <h3 class="card__title">
+              Картина, которую повторит даже 5-летний сын маминой подруги
+            </h3>
+            <p class="card__text">
+              Ну действительно, там линия, тут кружочек, 
+              а здесь и вовсе что-то похожее на инфузорию-туфельку. 
+              Никаких полей, лесов, котиков... 
+              Сколько бы вы на такое поставили, если бы не знали, 
+              что это — одна из революционных работ Кандинского?
+            </p>
+          </article>
+        </li>
+      </ul>
+      <a class="lots__look-more-link">посмотреть больше</a>
     </section>
+    
     <section class="about">
       
     </section>
