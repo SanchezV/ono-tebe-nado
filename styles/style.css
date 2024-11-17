@@ -196,7 +196,8 @@
 
 .card {
     height: 100%;
-    min-height: 563px;
+    height: 563px;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
