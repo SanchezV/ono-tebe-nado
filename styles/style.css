@@ -337,8 +337,6 @@
     margin-top: 180px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 50px;
-
 }
 
 .footer__address {
